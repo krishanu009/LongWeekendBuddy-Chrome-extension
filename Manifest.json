@@ -1,0 +1,14 @@
+{
+    "name": "Holidays",
+    "version": "1.0.0",
+    "description": "Your Holiday Bot",
+    "manifest_version": 3,
+    "author": "Sampurna Chapagain",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    },
+    "permissions": [
+        "notifications"
+    ]
+}

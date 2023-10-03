@@ -1,0 +1,15 @@
+.container {
+    background-image: url("bg.jpg");
+    background-color: #1a1717;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 450px;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    overflow-y: auto;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    
+}
