@@ -92,7 +92,7 @@ function findUpcomingLongWeekends(holidays) {
       if(i<holidays.length)
       {
         upcommingHoliday = new Date(holidays[i]);
-        upcommingHoliday = "Upcomming Holiday on " +  upcommingHoliday.toLocaleDateString("en-US", {
+        upcommingHoliday = "Upcoming Holiday on " +  upcommingHoliday.toLocaleDateString("en-US", {
             year: "numeric",
             month: "short",
             day: "2-digit"
@@ -116,7 +116,7 @@ async function fetchData() {
     // const res=await fetch ("https://api.coronavirus.data.gov.uk/v1/data");
     // const record=await res.json();
     document.getElementById("upcomming").innerHTML= "🏖️ " +upcommingHoliday + " 🏖️";
-    document.getElementById("upcommingLongWeekend").innerHTML= upcomingLongWeekends.length > 0 ? "✈️ Upcomming Long Weekends on " + formatDatesToString(upcomingLongWeekends) + " 🏝️":  "No Long Weekends Left!";
+    document.getElementById("upcommingLongWeekend").innerHTML= upcomingLongWeekends.length > 0 ? "✈️ Upcoming Long Weekends on " + formatDatesToString(upcomingLongWeekends) + " 🏝️":  "No Long Weekends Left!";
     
 }
 fetchData();
