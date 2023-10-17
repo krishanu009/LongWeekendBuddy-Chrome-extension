@@ -17,7 +17,7 @@ The Long Weekend Finder Chrome Extension is a tool designed to help users find o
 - **User-Friendly Interface:** The user interface is designed to be intuitive and easy to use.
 
 ## Screenshots
-![image](https://github.com/krishanu009/LongWeekendBuddy-Chrome-extension/assets/107165160/1e6371a0-5b69-458f-8370-2536b7ff00ff)
+![image](https://github.com/krishanu009/LongWeekendBuddy-Chrome-extension/assets/107165160/ab9193d7-9b65-43cf-85e0-cca158f0edb0)
 
 ![image](https://github.com/krishanu009/LongWeekendBuddy-Chrome-extension/assets/107165160/47d25ccd-54aa-40de-bfb8-d22b1a64dc5c)
 
