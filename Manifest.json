@@ -1,5 +1,5 @@
 {
-    "name": "Holidays",
+    "name": "Long Weekend",
     "version": "1.0.0",
     "description": "Your Holiday Bot",
     "manifest_version": 3,
@@ -10,9 +10,16 @@
     },
     "permissions": [
         "notifications",
-        "alarms"
+        "alarms",
+        "storage"
     ],
     "background": {
     	"service_worker": "background.js"
- }
+ },
+ "icons": {
+    "16": "weekend.png",
+    "32": "weekend.png",
+    "48": "weekend.png",
+    "128": "weekend.png"
+  }
 }

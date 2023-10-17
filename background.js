@@ -1,7 +1,7 @@
 
 chrome.alarms.create("dailyCheck", {
-    delayInMinutes: 0.1,
-    periodInMinutes: 0.1  
+  delayInMinutes: 0.1,
+  periodInMinutes: 24 * 60 // Run once every 24 hours (1 day)
 });
 
 const holidays = ["2023-01-26","2023-03-08","2023-04-07","2023-08-15","2023-09-20","2023-10-02","2023-10-24", "2023-11-13", "2023-11-27", "2023-12-25"];
